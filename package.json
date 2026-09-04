@@ -1,0 +1,9 @@
+{
+  "name": "fintech-embedding-audit-search",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/payment_search.ts", "test": "tsx src/payment_search.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"openai": "^4.80.0", "zod": "^3.24.1"},
+  "devDependencies": {"tsx": "^4.19.2", "typescript": "^5.7.2"}
+}
